@@ -1,0 +1,22 @@
+@media screen and (max-width: 769px) {
+  .nav-bar__table__mobile {
+    display: none;
+  }
+  #nav-bar .container__id {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 0px 50px;
+  }
+  .container__certificate::after,
+.container__certificate::before {
+    display: none;
+  }
+  .card__info {
+    flex-direction: column;
+  }
+  .container__project,
+.container__certificate {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=mobile.css.map */

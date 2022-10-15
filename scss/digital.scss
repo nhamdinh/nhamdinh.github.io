@@ -1,0 +1,121 @@
+.title {
+    color: blue;
+    font-weight: 800;
+    font-size: 20px;
+    border-bottom: 2px solid burlywood;
+    padding: 20px;
+}
+
+.icon__size {
+    font-size: 30px;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.container {
+    background-color: blue;
+}
+.left {
+    margin-top: 20px;
+
+    .goals {
+        border-radius: 4px;
+        margin-top: 20px;
+        background-color: #fff;
+    }
+
+    .goals__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .goals__item__title {
+        padding: 10px;
+    }
+    .goals__item_desc {
+    }
+    .scopes {
+        border-radius: 4px;
+        margin-top: 20px;
+        background-color: #fff;
+    }
+    .scopes__item {
+    }
+    .scopes__item__title {
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .scopes__item__decs {
+    }
+}
+
+.center {
+    margin-top: 20px;
+
+    .team {
+        border-radius: 4px;
+        margin-top: 20px;
+        background-color: #fff;
+    }
+
+    .team__item {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 10px;
+    }
+    .team__item__title {
+        padding: 10px;
+    }
+    .team__item__desc {
+    }
+    .primary {
+        border-radius: 4px;
+        margin-top: 20px;
+        background-color: #fff;
+    }
+    .primary__item {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 10px;
+    }
+    .primary__item__title {
+        padding: 10px;
+    }
+    .primary__item__desc {
+    }
+}
+
+.right {
+    margin-top: 20px;
+
+    .timeline {
+        border-radius: 4px;
+        margin-top: 20px;
+        background-color: #fff;
+    }
+
+    .timeline__item {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 10px;
+    }
+    .timeline__item__title {
+        padding: 20px;
+        border-radius: 50%;
+        background-color: blueviolet;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .timeline__item__desc {
+        padding-left: 10px;
+        border-bottom: 1px solid blue;
+    }
+}

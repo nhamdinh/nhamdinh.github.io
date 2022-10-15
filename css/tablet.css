@@ -1,0 +1,8 @@
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+  .nav-bar__table__mobile {
+    display: none;
+  }
+  .card__info {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=tablet.css.map */
